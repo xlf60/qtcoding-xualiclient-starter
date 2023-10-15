@@ -4,8 +4,8 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.qtcoding</groupId>
-    <artifactId>gptclientapi</artifactId>
+    <groupId>io.github.xlf60</groupId>
+    <artifactId>qtcoding-xualiclient-starter</artifactId>
     <version>0.0.1</version>
 
     <name>gpt-client-sdk</name>
@@ -32,6 +32,7 @@
             <artifactId>spring-boot-configuration-processor</artifactId>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>cn.hutool</groupId>
             <artifactId>hutool-all</artifactId>
@@ -66,7 +67,6 @@
             <artifactId>dashscope-sdk-java</artifactId>
             <version>2.7.0</version>
         </dependency>
-
 
     </dependencies>
 
