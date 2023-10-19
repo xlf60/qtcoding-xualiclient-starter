@@ -6,9 +6,9 @@ import lombok.Data;
 import java.io.Serializable;
 
 /**
- * @author xulongfei
- * @Description
- * @date 2023/10/15
+ * Author xlf
+ * Description
+ * date 2023/10/15
  */
 @Data
 @Builder

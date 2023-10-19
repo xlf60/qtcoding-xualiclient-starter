@@ -9,9 +9,9 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * @author xulongfei
- * @Description
- * @date 2023/10/15
+ * Author xlf
+ * Description
+ * date 2023/10/15
  */
 @Configuration
 @ConfigurationProperties("xugpt.client")

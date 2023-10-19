@@ -3,21 +3,22 @@ package com.qtcoding.apiclientsdk.client;
 import com.alibaba.dashscope.aigc.generation.Generation;
 import com.alibaba.dashscope.aigc.generation.GenerationResult;
 import com.alibaba.dashscope.aigc.generation.models.QwenParam;
-import com.alibaba.dashscope.common.*;
+import com.alibaba.dashscope.common.History;
+import com.alibaba.dashscope.common.Message;
+import com.alibaba.dashscope.common.MessageManager;
+import com.alibaba.dashscope.common.Role;
 import com.alibaba.dashscope.exception.ApiException;
 import com.alibaba.dashscope.exception.InputRequiredException;
 import com.alibaba.dashscope.exception.NoApiKeyException;
-import com.alibaba.dashscope.utils.JsonUtils;
 import com.qtcoding.apiclientsdk.model.req.AliUser;
 import com.qtcoding.apiclientsdk.model.resp.ResultResp;
 
-import java.util.*;
-import java.util.concurrent.Semaphore;
+import java.util.List;
 
 /**
  * Author xlf
  * Description 调用阿里云大模型接口的客户端
- * date 2023/10/15
+ * Date 2023/10/15
  */
 public class XuAliClient {
     private String api_key;
